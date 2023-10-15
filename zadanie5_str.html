@@ -1,0 +1,30 @@
+<html>
+    <head></head>
+        <body>
+            <script type="text/javascript">
+                function okno_zamknij_Strykharczuk()
+                    {window.close()}
+
+                function WinOpen_Strykharczuk_1()
+                    {window.open("grafika1.html","okienko_g1","toolbar=no,directories=no,menubar=no,height=600,width=350,top=500,left=250");}
+
+                function WinOpen_Strykharczuk_2()
+                    {window.open("grafika2.html","okienko_g2","toolbar=no,directories=no,menubar=no,height=350,width=300,top=500,left=600");}
+
+                function WinOpen_Strykharczuk_3()
+                    {window.open("grafika3.html","okienko_g3","toolbar=no,directories=no,menubar=no,height=450,width=400,top=500,left=900");}
+                    
+                function WinOpen_Strykharczuk_4()
+                    {window.open("grafika4.html","okienko_g4","toolbar=no,directories=no,menubar=no,height=450,width=530,top=500,left=1300");}
+                    
+                document.write("Wykonał prace: Strykharczuk Rostyslaw , numer w dzienniku 19, czyli mam układ [(19) mod 4=1] układ 1".fontcolor("red").fontsize(7).bold()+"<br><br><center>");
+            </script>
+
+<input type="button" value="grafika1" onclick="WinOpen_Strykharczuk_1(' ')">
+<input type="button" value="grafika2" onclick="WinOpen_Strykharczuk_2(' ')">
+<input type="button" value="grafika3" onclick="WinOpen_Strykharczuk_3(' ')">
+<input type="button" value="grafika4" onclick="WinOpen_Strykharczuk_4(' ')">
+<br><br>
+<input type="button" value="Zamknij okno" onclick="okno_zamknij_Strykharczuk(' ')">
+</body>
+</html>
