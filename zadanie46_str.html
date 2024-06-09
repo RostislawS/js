@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <head>
+    <meta charset="utf-8">
+ </head>
+<body>
+    <div style="color:red;font-size:50px;">
+        <script language="JavaScript">
+            do {
+            var liczba1=prompt("wysokość=","");
+            var h_Str=parseFloat(liczba1);
+            }
+            while ( h_Str<=0);
+            do {
+            var liczba1=prompt("podstawę=","");
+            var a_Str=parseFloat(liczba1);
+            }
+            while(!( a_Str>0));
+            var Pole=a_Str*h_Str/2;
+            document.write("Pole="+Pole.toFixed(2)+" cm^2"+"<br>");
+        </script>
+    </div>
+</body>
+</html>
